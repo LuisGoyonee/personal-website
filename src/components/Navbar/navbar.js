@@ -1,5 +1,7 @@
 import React from "react";
+import myImage from "../../images/TempLogo2.png";
 import { FaBars } from "react-icons/fa";
+import ".//styles.css";
 import {
   HamburgerIcon,
   Nav,
@@ -15,7 +17,10 @@ const Navbar = ({ toggleSidebar }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavbarLogo to="/">LuisGoyone</NavbarLogo>
+          <NavbarLogo to="/">
+            <img src={myImage} alt="logo" className="logo" />
+            LuisGoyone
+          </NavbarLogo>
           <HamburgerIcon onClick={toggleSidebar}>
             <FaBars size={28} />
           </HamburgerIcon>

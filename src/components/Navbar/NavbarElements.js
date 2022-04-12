@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: white
+  background: black;
   height: 80px;
-  // margin-top: -80px;
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,8 +13,8 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
-  border-bottom: 1px solid #dee2e6;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  // border-bottom: 1px solid #dee2e6;
+  // box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -33,7 +33,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavbarLogo = styled(Link)`
-  color: black;
+  color: white;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -54,7 +54,7 @@ export const HamburgerIcon = styled.div`
     transform: translate(-100%, 80%);
     font-side: 1.8rem;
     cursor: pointer;
-    color: black;
+    color: white;
   }
 `;
 
@@ -75,7 +75,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkScroll)`
-  color: black;
+  color: white;
   display: flex;
   align-items: center;
   text-decoration: none;
