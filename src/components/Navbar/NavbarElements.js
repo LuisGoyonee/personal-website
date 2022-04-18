@@ -60,7 +60,7 @@ export const HamburgerIcon = styled.div`
 
 export const NavMenu = styled.ul`
   display: flex;
-  alighn-items: center;
+  align-items: center;
   list-style: none;
   text-align: center;
   margin-right: -22px;

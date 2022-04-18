@@ -1,19 +1,19 @@
 import React, { useState } from "react";
+import Video from "../../videos/video.mp4";
+import { Button } from "../../components/Button/ButtonElement";
 import Navbar from "../../components/Navbar/navbar";
 import Sidebar from "../../components/Sidebar/sidebar";
-import { Button } from "../../components/Button/ButtonElement";
 import {
+  ArrowForward,
+  ArrowRight,
   HomeBackground,
+  HomeButtonWrapper,
   HomeContainer,
-  VideoBackground,
   HomeContent,
   HomeH1,
   HomeP,
-  HomeButtonWrapper,
-  ArrowForward,
-  ArrowRight,
+  VideoBackground,
 } from "./HomeElements";
-import Video from "../../videos/video.mp4";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +31,7 @@ const Home = () => {
     <>
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       <Navbar toggleSidebar={toggleSidebar} />
-      <HomeContainer>
+      <HomeContainer id="home">
         <HomeBackground>
           <VideoBackground autoPlay loop muted src={Video} type="video/mp4" />
         </HomeBackground>

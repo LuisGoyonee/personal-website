@@ -13,7 +13,7 @@ export const Button = styled.button`
   cursor: pointer;
   display: flex;
   justify-content: center;
-  algin-items: center;
+  align-items: center;
   transition: all 0.2s ease-in-out;
 
   &:hover {

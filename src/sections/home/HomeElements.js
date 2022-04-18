@@ -40,7 +40,7 @@ export const HomeBackground = styled.div`
 export const VideoBackground = styled.video`
   width: 100%;
   height: 100%;
-  -0-0bject-fit: cover;
+  -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
 `;
