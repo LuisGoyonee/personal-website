@@ -7,7 +7,8 @@ export const HomeContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  height: 100vh;
+  position: relative;
   z-index: 1;
 
   :before {
@@ -56,7 +57,7 @@ export const HomeContent = styled.div`
 `;
 
 export const HomeH1 = styled.h1`
-  color: white;
+  color: #fff;
   font-size: 48px;
   text-align: center;
 
@@ -71,7 +72,7 @@ export const HomeH1 = styled.h1`
 
 export const HomeP = styled.p`
   margin-top: 24px;
-  color: white;
+  color: #fff;
   font-size: 24px;
   text-align: center;
   max-width: 600px;

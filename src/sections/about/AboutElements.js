@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
+  margin-top: 0.5px;
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
 
@@ -12,9 +13,8 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 100vh;
   width: 100%;
-  max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;

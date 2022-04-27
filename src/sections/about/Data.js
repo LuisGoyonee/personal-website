@@ -2,7 +2,7 @@ export const homeObjOne = {
   id: "about",
   lightBg: true,
   lightText: false,
-  lightTextDesc: true,
+  lightTextDesc: false,
   topLine: "Premium Bank",
   headLine: "Unlimited Transaction with zero fees",
   description:
@@ -11,7 +11,7 @@ export const homeObjOne = {
   imgStart: false,
   img: require("../../images/svg-1.svg").default,
   alt: "Car",
-  dark: false,
-  primary: false,
+  dark: true,
+  primary: true,
   darkText: true,
 };

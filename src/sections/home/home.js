@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Video from "../../videos/video.mp4";
 import { Button } from "../../components/Button/ButtonElement";
-import Navbar from "../../components/Navbar/navbar";
-import Sidebar from "../../components/Sidebar/sidebar";
 import {
   ArrowForward,
   ArrowRight,
@@ -16,12 +14,6 @@ import {
 } from "./HomeElements";
 
 const Home = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
-  };
-
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
@@ -29,8 +21,6 @@ const Home = () => {
   };
   return (
     <>
-      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
-      <Navbar toggleSidebar={toggleSidebar} />
       <HomeContainer id="home">
         <HomeBackground>
           <VideoBackground autoPlay loop muted src={Video} type="video/mp4" />
@@ -43,7 +33,8 @@ const Home = () => {
           </HomeP>
           <HomeButtonWrapper>
             <Button
-              to="getstarted"
+              to="about"
+              smooth="true"
               onMouseEnter={onHover}
               onMouseLeave={onHover}
               primary="true"
