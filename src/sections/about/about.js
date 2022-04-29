@@ -32,7 +32,6 @@ const About = ({
   dark,
   dark2,
 }) => {
-  console.log(imgStart);
   return (
     <>
       <AboutContainer lightBg={lightBg} id={id}>
@@ -45,7 +44,7 @@ const About = ({
                 <SubTitle darkText={darkText}>{description}</SubTitle>
                 <BtnWrap>
                   <Button
-                    to="home"
+                    to="aboutPartTwo"
                     smooth={true}
                     duration={500}
                     spy={true}
