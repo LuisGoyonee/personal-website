@@ -16,6 +16,7 @@ export const aboutContentsOne = {
   primary: true,
   darkText: true,
   column: false,
+  spacing: false,
 };
 
 export const aboutContentsTwo = {
@@ -27,6 +28,8 @@ export const aboutContentsTwo = {
   primary: true,
   darkText: true,
   column: true,
+  spacing: true,
+  buttonLabel: "Projects",
   img: require("../../images/skills.png"),
   content: [
     {

@@ -1,7 +1,6 @@
 import React from "react";
-import Icon1 from "../../images/svg-2.svg";
-import Icon2 from "../../images/svg-3.svg";
-import Icon3 from "../../images/svg-4.svg";
+import Notedt from "../../images/notedt.png";
+import Web from "../../images/mywebsite.png";
 import {
   ProjectsCard,
   ProjectsContainer,
@@ -15,27 +14,21 @@ import {
 const Projects = () => {
   return (
     <ProjectsContainer id="projects">
-      <ProjectsH1>Our Services</ProjectsH1>
+      <ProjectsH1>Projects</ProjectsH1>
       <ProjectsWrapper>
         <ProjectsCard>
-          <ProjectsIcon src={Icon1} />
-          <ProjectsH2>Reduce Expenses</ProjectsH2>
+          <ProjectsIcon src={Notedt} />
+          <ProjectsH2>Notedt</ProjectsH2>
           <ProjectsP>
-            We help reduce your fees and increase your overall revenue.
+            A website application that allows you to track your expenses. This
+            website was built using HTML, CSS, and ReactJS.
           </ProjectsP>
         </ProjectsCard>
         <ProjectsCard>
-          <ProjectsIcon src={Icon2} />
-          <ProjectsH2>Virtual Offices</ProjectsH2>
+          <ProjectsIcon src={Web} />
+          <ProjectsH2>Personal Website</ProjectsH2>
           <ProjectsP>
             You can access our platform online anywhere in the world.
-          </ProjectsP>
-        </ProjectsCard>
-        <ProjectsCard>
-          <ProjectsIcon src={Icon3} />
-          <ProjectsH2>Premium Benefits</ProjectsH2>
-          <ProjectsP>
-            Unlock our special membership card that returns 5% cash back.
           </ProjectsP>
         </ProjectsCard>
       </ProjectsWrapper>

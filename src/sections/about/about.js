@@ -30,12 +30,12 @@ const About = ({
   alt,
   primary,
   dark,
-  dark2,
+  spacing,
 }) => {
   return (
     <>
-      <AboutContainer lightBg={lightBg} id={id}>
-        <AboutWrapper>
+      <AboutContainer lightBg={lightBg} id={id} spacing={spacing}>
+        <AboutWrapper spacing={spacing}>
           <AboutRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
@@ -52,7 +52,6 @@ const About = ({
                     offset={-80}
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
-                    dark2={dark2 ? 1 : 0}
                   >
                     {buttonLabel}
                   </Button>

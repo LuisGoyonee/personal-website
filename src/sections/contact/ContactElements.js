@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProjectsContainer = styled.div`
+export const FormContainer = styled.div`
   margin-top: 0.5px;
   padding-bottom: 5%;
   height: 100vh;
@@ -8,7 +8,7 @@ export const ProjectsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #f9f9f9;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -19,13 +19,12 @@ export const ProjectsContainer = styled.div`
   }
 `;
 
-export const ProjectsWrapper = styled.div`
+export const Form = styled.form`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  justify-content: center;
   grid-gap: 16px;
   padding: 0 50px;
 
@@ -39,33 +38,15 @@ export const ProjectsWrapper = styled.div`
   }
 `;
 
-export const ProjectsCard = styled.div`
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  height: 500px;
-  width: 500px;
-  padding: 30px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-in-out;
-
-  &:hover {
-    transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-  }
-`;
+export const TextInput = styled.input``;
 
 export const ProjectsIcon = styled.img`
-  height: 200px;
-  object-fit: cover;
+  height: 160px;
+  width: 160px;
   margin-bottom: 10px;
 `;
 
-export const ProjectsH1 = styled.h1`
+export const TextArea = styled.textarea`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;
@@ -75,12 +56,12 @@ export const ProjectsH1 = styled.h1`
   }
 `;
 
-export const ProjectsH2 = styled.h2`
+export const FieldSet = styled.fieldset`
   font-size: 1rem;
   margin-bottom: 10px;
 `;
 
-export const ProjectsP = styled.p`
+export const Error = styled.div`
   font-size: 1rem;
   text-align: center;
 `;
