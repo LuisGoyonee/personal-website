@@ -28,12 +28,6 @@ const Footer = () => {
               <FooterLink to="/">Facebook</FooterLink>
               <FooterLink to="/">Twitter</FooterLink>
             </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLink to="/">Instagram</FooterLink>
-              <FooterLink to="/">LinkedIn</FooterLink>
-              <FooterLink to="/">Facebook</FooterLink>
-              <FooterLink to="/">Twitter</FooterLink>
-            </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
