@@ -28,7 +28,8 @@ const Projects = () => {
           <ProjectsIcon src={Web} />
           <ProjectsH2>Personal Website</ProjectsH2>
           <ProjectsP>
-            You can access our platform online anywhere in the world.
+            A website application that allows you to track your expenses. This
+            website was built using HTML, CSS, and ReactJS.
           </ProjectsP>
         </ProjectsCard>
       </ProjectsWrapper>

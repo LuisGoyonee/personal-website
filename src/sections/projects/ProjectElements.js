@@ -20,10 +20,9 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const ProjectsWrapper = styled.div`
-  max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
   grid-gap: 16px;
@@ -46,8 +45,8 @@ export const ProjectsCard = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  height: 500px;
-  width: 500px;
+  margin: auto;
+  width: 80%;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
@@ -60,8 +59,7 @@ export const ProjectsCard = styled.div`
 `;
 
 export const ProjectsIcon = styled.img`
-  height: 200px;
-  object-fit: cover;
+  width: 100%;
   margin-bottom: 10px;
 `;
 
