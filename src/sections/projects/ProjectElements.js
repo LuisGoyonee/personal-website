@@ -28,13 +28,12 @@ export const ProjectsWrapper = styled.div`
   grid-gap: 16px;
   padding: 0 50px;
 
-  @media screen and (max-width: 1000px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 320px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
+  }
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
   }
 `;
 
@@ -76,9 +75,32 @@ export const ProjectsH1 = styled.h1`
 export const ProjectsH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
+  @media screen and (min-width: 320px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 22px;
+  }
 `;
 
 export const ProjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
+
+  @media screen and (min-width: 320px) {
+    line-height: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1024px) {
+    line-height: 20px;
+    font-size: 18px;
+  }
 `;
