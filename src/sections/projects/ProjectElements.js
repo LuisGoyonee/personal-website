@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
   margin-top: 0.5px;
-  padding-bottom: 5%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
