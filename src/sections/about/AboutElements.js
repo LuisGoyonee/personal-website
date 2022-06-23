@@ -8,7 +8,7 @@ export const AboutContainer = styled.div`
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
 
   @media screen and (min-width: 320px) {
-    height: 130vh;
+    height: 140vh;
     width: 100%;
   }
 
@@ -37,6 +37,7 @@ export const AboutSubContainer = styled.div`
   display: inline-block;
   padding-top: 5rem;
   width: 100%;
+  height: 100%;
 
   @media screen and (min-width: 320px) {
     padding-top: 2rem;
@@ -165,10 +166,7 @@ export const SubTitle = styled.p`
 `;
 
 export const BtnContainer = styled.div`
-  width: 100%;
-  height: 100%;
   display: flex;
-
   justify-content: center;
 `;
 export const BtnWrap = styled.div`

@@ -1,6 +1,7 @@
 import React from "react";
 import myImage from "../../images/TempLogo2.png";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 import {
   FooterContainer,
   FooterWrap,
@@ -23,7 +24,7 @@ const Footer = () => {
               LuisGoyone
             </SocialLogo>
             <WebsiteRights>
-              Luisgoyone © {new Date().getFullYear()} All right reserved.
+              LuisGoyone © {new Date().getFullYear()} All right reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
