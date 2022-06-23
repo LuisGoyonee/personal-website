@@ -27,10 +27,7 @@ const Projects = () => {
             </ProjectsP>
           </ProjectsCard>
         </ProjectLink>
-        <ProjectLink
-          href="https://personal-website-hazel-nine.vercel.app/"
-          target="_blank"
-        >
+        <ProjectLink href="https://luisgoyone.vercel.app/" target="_blank">
           <ProjectsCard>
             <ProjectsIcon src={Web} />
             <ProjectsH2>Personal Website</ProjectsH2>
