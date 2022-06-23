@@ -22,12 +22,18 @@ const AboutPartTwo = ({
   column,
   lightText,
   darkText,
-  content,
   img,
+  alt,
   primary,
   dark,
   buttonLabel,
   spacing,
+  personalInfo,
+  personalInfoDescription,
+  theGoal,
+  theGoalDescription,
+  skillSet,
+  skillSetDescription,
 }) => {
   return (
     <>
@@ -35,19 +41,29 @@ const AboutPartTwo = ({
         <AboutSubContainer>
           <AboutWrapper column={column} spacing={spacing}>
             <AboutMeRows>
-              {content.map((item, index) => {
-                const { topLine, description, img } = item;
-                return (
-                  <>
-                    <AboutMe>
-                      <TextWrapper>
-                        <TopLine column={column}>{topLine}</TopLine>
-                        <SubTitle darkText={darkText}>{description}</SubTitle>
-                      </TextWrapper>
-                    </AboutMe>
-                  </>
-                );
-              })}
+              <AboutMe>
+                <TextWrapper>
+                  <TopLine column={column}>{personalInfo}</TopLine>
+                  <SubTitle darkText={darkText}>
+                    {personalInfoDescription}
+                  </SubTitle>
+                </TextWrapper>
+              </AboutMe>
+              <AboutMe>
+                <TextWrapper>
+                  <TopLine column={column}>{theGoal}</TopLine>
+                  <SubTitle darkText={darkText}>{theGoalDescription}</SubTitle>
+                </TextWrapper>
+              </AboutMe>
+              <AboutMe>
+                <TextWrapper>
+                  <TopLine column={column}>{skillSet}</TopLine>
+                  <SubTitle darkText={darkText}>{skillSetDescription}</SubTitle>
+                  <ImgWrap>
+                    <Img src={img} alt={alt} />
+                  </ImgWrap>
+                </TextWrapper>
+              </AboutMe>
             </AboutMeRows>
           </AboutWrapper>
           <BtnContainer>
