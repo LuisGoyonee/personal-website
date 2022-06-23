@@ -9,7 +9,8 @@ export const ProjectsContainer = styled.div`
   align-items: center;
   background: #010606;
   @media screen and (min-width: 320px) {
-    height: 120vh;
+    height: 110vh;
+    padding-top: 3rem;
   }
   @media screen and (min-width: 768px) {
     height: 100vh;
