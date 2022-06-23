@@ -3,18 +3,12 @@ import styled from "styled-components";
 export const ProjectsContainer = styled.div`
   margin-top: 0.5px;
   padding-bottom: 5%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #010606;
-  @media screen and (min-width: 320px) {
-    height: 110vh;
-    padding-top: 3rem;
-  }
-  @media screen and (min-width: 768px) {
-    height: 100vh;
-  }
 `;
 
 export const ProjectsWrapper = styled.div`
