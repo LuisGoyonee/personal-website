@@ -7,6 +7,11 @@ export const AboutContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
 
+  @media screen and (min-width: 320px) {
+    height: 130vh;
+    width: 100%;
+  }
+
   @media screen and (min-width: 768px) {
     height: 100vh;
     width: 100%;
@@ -59,7 +64,7 @@ export const AboutMeRows = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 425px) {
     padding: 0 10px;
     grid-template-columns: 1fr;
   }
@@ -174,6 +179,9 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Img = styled.img`
