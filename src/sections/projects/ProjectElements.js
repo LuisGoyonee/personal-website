@@ -104,3 +104,8 @@ export const ProjectsP = styled.p`
     font-size: 18px;
   }
 `;
+
+export const ProjectLink = styled.a`
+  color: black;
+  text-decoration: none;
+`;
