@@ -33,7 +33,8 @@ const Projects = () => {
             <ProjectsH2>Personal Website</ProjectsH2>
             <ProjectsP>
               A website containing my portfolio, personal info and background.
-              This was built using Styled-components in React and ReactJS.
+              This website was built using Styled-components in React and
+              ReactJS.
             </ProjectsP>
           </ProjectsCard>
         </ProjectLink>
