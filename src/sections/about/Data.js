@@ -6,7 +6,7 @@ export const aboutContentsOne = {
   topLine: "Who am I?",
   headLine: "I am Luis Michael L. Goyone",
   description:
-    "I'm a Front-End Developer with a passion for creating beautiful and functional websites. I'm currently working as a Front-End Developer at a startup called PouchNATION.",
+    "An aspiring Front-end Software Engineer with a passion for creating beautiful and functional websites. I previously had an experience with the role during my internship with PouchNATION using ReactJS and Tailwind CSS.",
   buttonLabel: "More",
   imgStart: false,
   img: require("../../images/me3.png"),
