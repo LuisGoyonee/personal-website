@@ -32,8 +32,8 @@ const Projects = () => {
             <ProjectsIcon src={Web} />
             <ProjectsH2>Personal Website</ProjectsH2>
             <ProjectsP>
-              A website application that allows you to track your expenses. This
-              website was built using HTML, CSS, and ReactJS.
+              A website containing my portfolio, personal info and background.
+              This was built using Styled-components in React and ReactJS.
             </ProjectsP>
           </ProjectsCard>
         </ProjectLink>
