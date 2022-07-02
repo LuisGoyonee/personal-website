@@ -23,7 +23,7 @@ const Projects = () => {
             <ProjectsH2>Notedt</ProjectsH2>
             <ProjectsP>
               A website application that allows you to track your expenses. This
-              website was built using HTML, CSS, and ReactJS.
+              website was built using HTML, CSS, Tailwind CSS and ReactJS.
             </ProjectsP>
           </ProjectsCard>
         </ProjectLink>
